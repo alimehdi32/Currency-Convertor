@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #362804;
+}
+
+h1 {
+    color: rgb(26, 25, 25);
+    /*border: 2px solid green;*/
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.container {
+   /* border: 2px solid black;*/
+    height: 700px;
+    width: 1200px;
+    background-color: #645d4c;
+    border-radius: 25%;
+    /*display: flex;
+      justify-content: center;
+      align-items: center;*/
+}
+
+.convert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    margin: 3.5rem;
+}
+
+.icon {
+    /*border: 2px solid black;*/
+    height: 90px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 70px;
+}
+#Amount{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+    margin-bottom: 4px;
+    color: #2b0d10;
+    font-weight: bolder;
+}
+.amount {
+    /* border: 2px solid red;*/
+    margin-top: 50px;
+    margin-left: 365px;
+    font-size: x-large;
+}
+
+input {
+    /*border: 1px solid lightgray;*/
+    font-size: 2.5rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    width: 30rem;
+    background-color: #4e5356;
+    border-radius: 18px;
+}
+
+.to,.from  {
+    /* border: 3px solid purple;*/
+    height: 5cm;
+    width: 5cm;
+    display: flex;
+
+}
+
+#from, #to {
+    height: 3rem;
+    margin-top: 1.3cm;
+    background-color: rgb(5, 99, 102);
+}
+
+.msg {
+
+    margin-bottom: 100px;
+    height: 3cm;
+    
+    
+}
+p{
+    margin-left:27rem;
+    height: 30px;
+    width: 500px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: fantasy;
+    transform: scale(1.05);
+}
+
+button {
+    width: 9cm;
+    height: 1.5cm;
+    border-radius: 29px;
+    margin-left: 26rem;
+    font-size: x-large;
+    background-color: cornflowerblue;
+    font-family: Arial, sans-serif;
+    /* Change to the desired font */
+    font-size: 16px;
+    /* Adjust the size as needed */
+    font-weight: bold;
+    /* Optional: make the font bold */
+    color: #333;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    cursor: pointer;
+    
+}
